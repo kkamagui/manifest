@@ -13,7 +13,7 @@
 	<!-- OP-TEE gits -->
 	<project remote="optee-for-secure-pi" path="optee_os" name="optee_os.git" revision="secure-pi"/>
 	<project remote="optee-for-secure-pi" path="optee_client" name="optee_client.git" revision="secure-pi"/>
-	<project path="optee_test" name="optee_test.git" />
+	<project path="optee_test" name="optee_test.git" revision= "73205039829a7bb3566e1de5d5deeae9690639d4"/>
 
 	<!-- BusyBox -->
 	<!-- <project remote="busybox" path="busybox" name="busybox.git" revision="dbf5a6da6a4295ce26edd1ce34fde567d19afa02" /> -->
@@ -26,7 +26,7 @@
 	<project remote="linaro-swg-for-secure-pi" path="linux" name="linux.git" revision="rpi3-optee-4.6-for-secure-pi" />
 
 	<!-- Benchmark app -->
-	<project remote="linaro-swg" path="optee_benchmark" name="optee_benchmark.git"/>
+	<project remote="linaro-swg" path="optee_benchmark" name="optee_benchmark.git" revision="c734975883c4b68f3abd87e9657c57db76126611"/>
 
 	<!-- U-boot -->
 	<project remote="linaro-swg" path="u-boot" name="u-boot.git" revision="rpi3_initial_drop"/>
