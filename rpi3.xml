@@ -43,7 +43,6 @@
 	<!-- Build -->
 	<project remote="optee-for-secure-pi" path="build" name="build.git" revision="secure-pi">
 		<linkfile src="rpi3.mk" dest="build/Makefile" />
-		<linkfile src="rpi3/debugger/pi3.cfg" dest="build/pi3.cfg" />
-		<linkfile src="../toolchains/aarch64/bin/aarch64-linux-gnu-gdb" dest="build/gdb" />
+		<linkfile src="rpi3/debugger/pi3.cfg" dest="build/pi3.cfg" />		
 	</project>
 </manifest>
